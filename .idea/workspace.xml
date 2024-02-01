@@ -5,24 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ef097c-daff-4606-8226-0f369d96388d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryServer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryServer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryServer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryServer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryServer/src/main/java/com/registery/DiscoveryServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryServer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryServer/src/test/java/com/registery/DiscoveryServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiGateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiGateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiGateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiGateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiGateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiGateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiGateway/src/main/java/com/gateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiGateway/src/test/java/com/gateway/ApiGatewayApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestionService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/src/main/java/com/quizservice/service/QuestionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/src/main/java/com/quizservice/service/QuestionClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuizService/src/main/java/com/quizservice/controller/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/src/main/java/com/quizservice/controller/QuizController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +78,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.QuizServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ApiGateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="DiscoveryServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.registery.DiscoveryServerApplication" />
@@ -123,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706767917665</updated>
-      <workItem from="1706767918766" duration="15798000" />
+      <workItem from="1706767918766" duration="24606000" />
     </task>
     <servers />
   </component>

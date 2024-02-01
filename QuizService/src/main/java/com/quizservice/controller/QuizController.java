@@ -13,7 +13,7 @@ public class QuizController {
     @Autowired
     public QuizServices quizServices;
 
-    @GetMapping("/quizes")
+
     public List<Quiz> findAllTheQuiz(){
         return quizServices.getAllQuiz();
     }
