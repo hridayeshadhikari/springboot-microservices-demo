@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="QuestionService" />
         <module name="QuizService" />
+        <module name="DiscoveryServer" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DiscoveryServer" options="-parameters" />
       <module name="QuestionService" options="-parameters" />
       <module name="QuizService" options="-parameters" />
     </option>
